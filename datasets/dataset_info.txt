@@ -1,0 +1,22 @@
+Dataset Information
+============================================================
+
+Source: params_and_kernels_17_04.mat
+
+Training Set:
+  X_train shape: (1600, 20) (samples, input_dim)
+  Y_train shape: (1600, 200) (samples, output_dim)
+  File: train_data.npz
+
+Test Set:
+  X_test shape: (400, 20) (samples, input_dim)
+  Y_test shape: (400, 200) (samples, output_dim)
+  File: test_data.npz
+
+Output Composition:
+  First 100 dims: K_con flattened (25*2*2)
+  Last 100 dims: L_con flattened (25*2*2)
+  Total output dims: 200
+
+Train/Test Split: 80% train, 20% test
+Random Seed: 42 (reproducible)
